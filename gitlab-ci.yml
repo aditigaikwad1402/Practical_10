@@ -7,6 +7,8 @@ stages:
 # TODO 3: Assign the job to the correct stage.
 build_job:
   stage: build
+  tags:
+    - practical10
   script:
     - echo "Starting sample build"
     # TODO 4: Display the project files.
